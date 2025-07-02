@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de JavaScript - Aplicação Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplos de JavaScript</h1>
+        
+        <div class="botoes-container">
+            <button class="botao-exemplo" onclick="exemplo1()">
+                Exemplo 1<br>Jogo Número Secreto (Alert)
+            </button>
+            
+            <button class="botao-exemplo" onclick="exemplo2()">
+                Exemplo 2<br>Jogo Cálculo de Média
+            </button>
+            
+            <button class="botao-exemplo" onclick="exemplo3()">
+                Exemplo 3<br>Manipulação de Listas
+            </button>
+        </div>
+        
+        <div id="resultado">
+            <h2 id="titulo-resultado"></h2>
+            <div id="conteudo-resultado"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
