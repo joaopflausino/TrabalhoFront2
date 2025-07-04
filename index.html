@@ -10,53 +10,17 @@
     <div class="container">
         <h1>Exemplos de JavaScript</h1>
         
-        <div id="resultado">
-            <h2 id="titulo-resultado">Exemplo 1 - Jogo Número Secreto</h2>
-            
-            <!-- Exemplo 1 -->
-            <div id="exemplo" class="exemplo">
-                <div>
-                    <h1>Escolha um número entre 1 e 10</h1>
-                    <input type="number" id="chute" min="1" max="10">
-                    <button onclick="verificarChute()">Chutar</button>
-                    <button onclick="reiniciarJogo()" id="reiniciar" disabled>Novo jogo</button>
-                    <p id="mensagem"></p>
-                </div>
-                    
-            </div>
-        </div>
         <div class="botoes-container">
-            
+            <button class="botao-exemplo" onclick="exemplo1()">
+                Exemplo 1<br>Soma de Números
+            </button>
             <button class="botao-exemplo" onclick="exemplo2()">
                 Exemplo 2<br>Jogo Cálculo de Média
             </button>
+            <button class="botao-exemplo" onclick="exemplo3()">
+                Exemplo 3<br>Jogo dos Números Secretos
+            </button>
             
-        </div>
-        <div id="resultado">
-            <h2 id="titulo-resultado">Exemplo 3 - Formulário com Exportação TXT</h2>
-            
-            <!-- Formulário do Exemplo 3 -->
-            <div id="exemplo">
-                <h1>Formulário de Valores</h1>
-                <form id="formulario">
-                    <label for="valor1">Valor 1:</label>
-                    <input type="text" id="valor1" required><br>
-
-                    <label for="valor2">Valor 2:</label>
-                    <input type="text" id="valor2" required><br>
-
-                    <label for="valor3">Valor 3:</label>
-                    <input type="text" id="valor3" required><br>
-
-                    <label for="valor4">Valor 4:</label>
-                    <input type="text" id="valor4" required><br>
-
-                    <label for="valor5">Valor 5:</label>
-                    <input type="text" id="valor5" required><br>
-
-                    <button type="submit">Salvar em TXT</button>
-                </form>
-            </div>
         </div>
     </div>
 
